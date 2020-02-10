@@ -1,0 +1,16 @@
+.form-margin-buscador {
+    margin: auto;
+}
+
+.margin-row-buscador {
+    margin: 0 200px 0 200px !important;
+}
+
+@media (max-width: 1100px) {
+    .form-margin-buscador {
+        margin: unset;
+    }
+    .margin-row-buscador {
+        margin: unset !important;
+    }
+}
