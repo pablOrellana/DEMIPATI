@@ -8,11 +8,11 @@ class InicioSesion extends Component {
             <div>
                 <form className="form-signin my-4">
                     <img className="mb-4" src="/img/LOGO.jpg" alt="" width="72" height="72"/>
-                    <h1 className="h3 mb-3 font-weight-normal">¡Hola! Ingresa a tu cuenta y vive la experiencia Demipati. ✨✨✨</h1>
+                    <h1 className="h3 mb-3 font-weight-normal">¡Hola! <br/>Ingresa a tu cuenta y vive la experiencia Demipati. ✨✨✨</h1>
                     <label for="inputEmail" className="sr-only">Correo electrónico</label>
-                    <input type="email" id="inputEmail" className="form-control" placeholder="Email address" required autofocus /> 
+                    <input type="email" id="inputEmail" className="form-control" placeholder="Correo Electrónico" required autofocus /> 
                     <label for="inputPassword" className="sr-only">Contraseña</label>
-                    <input type="password" id="inputPassword" className="form-control" placeholder="Password"   required />
+                    <input type="password" id="inputPassword" className="form-control" placeholder="Contraseña" required />
                     <div className="checkbox mb-3">
                         <label>
                             <input type="checkbox" value="remember-me" /> Recordarme
