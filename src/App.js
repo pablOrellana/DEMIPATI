@@ -9,7 +9,6 @@ import React, {Component} from 'react'; //IMporta react
 import './App.css';
 
 import Home from './componentes/Home';
-import InicioSesion from './componentes/InicioSesion/InicioSesion';
 
 //COMPONENTE APP
 // La clase es una representacion de una parte de la página

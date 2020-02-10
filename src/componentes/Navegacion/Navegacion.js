@@ -1,5 +1,5 @@
 import React, {Component} from 'react'; //Mayuscula minuscula
-import { BrowserRouter as  Link } from 'react-router-dom';
+
 import "./Navegacion.css";
 
 class Navegacion extends Component{
