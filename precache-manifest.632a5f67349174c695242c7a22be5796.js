@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2951141c0183d4b92ccf5c85be4724f5",
+    "revision": "88af51f152fd956ec27f5f045ec13e83",
     "url": "/DEMIPATI/index.html"
   },
   {
