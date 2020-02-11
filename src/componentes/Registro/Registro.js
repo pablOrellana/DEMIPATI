@@ -43,7 +43,7 @@ class Registro extends Component{
                             <input type="text" id="inputUniversity" className="form-control" placeholder="Universidad" required autoFocus=""/>
                         </div>
                         <div className="form-group col-md-6 my-3">
-                            <label htmlFor="inputState">Estado</label>
+                            <label htmlFor="inputState">Región</label>
                             <input type="text" id="inputState" className="form-control" placeholder="Estado" required autoFocus=""/>
                         </div>
                         <div className="form-group col-md-6 my-3">
