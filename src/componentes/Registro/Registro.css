@@ -7,7 +7,7 @@ html, #registro {
 }
 
 #registro {
-    background-image: url('/public/img/slider2.jpg');
+    background-image: url('/DEMIPATI/img/slider2.jpg');
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
