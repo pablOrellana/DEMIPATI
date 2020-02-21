@@ -47,12 +47,12 @@ class Navegacion extends Component{
                         <button className="btn btn-danger my-sm-0 px-md-4" type="submit">PUBLICA AQUÍ!</button>
                     </div>
                     <div className="mx-1">
-                        <Link to="/register" >
+                        <Link to="/DEMIPATI/register" >
                             <button className="btn btn-outline-info my-sm-0 px-md-4" type="submit">Regístrate</button>
                         </Link>
                     </div>
                    <div className="mx-1">
-                       <Link to="/login" >
+                       <Link to="/DEMIPATI/login" >
                             <button className="btn btn-outline-warning my-sm-0 px-md-4" type="submit">Iniciar sesión</button>
                        </Link>
                    </div>

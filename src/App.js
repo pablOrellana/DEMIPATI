@@ -22,9 +22,9 @@ class App extends Component {
       // Propiedades ojooooo IMPORTANTE
       <Router>
         <div className="App">
-          <Route path="/" exact component={Home}/>
-          <Route path="/login" exact component={Login}/>
-          <Route path="/register" exact component={Register}/>
+          <Route path="/DEMIPATI" exact component={Home}/>
+          <Route path="/DEMIPATI/login" exact component={Login}/>
+          <Route path="/DEMIPATI/register" exact component={Register}/>
         </div>
       </Router>
     );

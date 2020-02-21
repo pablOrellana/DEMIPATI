@@ -7,7 +7,7 @@ export class BackButton extends Component {
     render() {
         return (
             <div id="back-to-home">
-                <Link to="/">
+                <Link to="/DEMIPATI">
                     <button type="button" className="btn btn-danger">
                         <svg class="bi bi-box-arrow-left" width="32" height="32" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M6.354 13.354a.5.5 0 000-.708L3.707 10l2.647-2.646a.5.5 0 10-.708-.708l-3 3a.5.5 0 000 .708l3 3a.5.5 0 00.708 0z" clip-rule="evenodd"></path>
