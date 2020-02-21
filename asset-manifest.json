@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/DEMIPATI/static/css/main.fa2c0d74.chunk.css",
+    "main.css": "/DEMIPATI/static/css/main.404f3baa.chunk.css",
     "main.js": "/DEMIPATI/static/js/main.572f6aa2.chunk.js",
     "main.js.map": "/DEMIPATI/static/js/main.572f6aa2.chunk.js.map",
     "runtime-main.js": "/DEMIPATI/static/js/runtime-main.6d29b828.js",
@@ -9,16 +9,16 @@
     "static/js/2.47d17243.chunk.js": "/DEMIPATI/static/js/2.47d17243.chunk.js",
     "static/js/2.47d17243.chunk.js.map": "/DEMIPATI/static/js/2.47d17243.chunk.js.map",
     "index.html": "/DEMIPATI/index.html",
-    "precache-manifest.dee13ef4bbb2e836c2b07fa70ca2d6f3.js": "/DEMIPATI/precache-manifest.dee13ef4bbb2e836c2b07fa70ca2d6f3.js",
+    "precache-manifest.007b7ac2f9db4d62ed7ed23a47ab5410.js": "/DEMIPATI/precache-manifest.007b7ac2f9db4d62ed7ed23a47ab5410.js",
     "service-worker.js": "/DEMIPATI/service-worker.js",
     "static/css/2.0624914a.chunk.css.map": "/DEMIPATI/static/css/2.0624914a.chunk.css.map",
-    "static/css/main.fa2c0d74.chunk.css.map": "/DEMIPATI/static/css/main.fa2c0d74.chunk.css.map"
+    "static/css/main.404f3baa.chunk.css.map": "/DEMIPATI/static/css/main.404f3baa.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.6d29b828.js",
     "static/css/2.0624914a.chunk.css",
     "static/js/2.47d17243.chunk.js",
-    "static/css/main.fa2c0d74.chunk.css",
+    "static/css/main.404f3baa.chunk.css",
     "static/js/main.572f6aa2.chunk.js"
   ]
 }
