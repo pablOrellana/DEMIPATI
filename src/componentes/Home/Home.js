@@ -10,24 +10,27 @@ import Pasos from '../Pasos';
 
 class Home extends Component {
     constructor() {
-        super()
-        this.myRef = React.createRef();
-    
-    }
-    scroll(ref) {
-        ref.current.scrollIntoView({behavior: 'smooth'})
+        super();
     }
     render(){
         return(
             <div className="Home">
-                <Navegacion scroll={this.scroll.bind()} myRef={this.myRef}/>
+                <Navegacion />
                 <Presentacion/>
                 {/*<Tareas/>*/}
 
                 {/*Sección  ¿qué libros buscas?*/}
                 <hr className="m-0"></hr>
                 <Buscador/>
+                <hr className="m-0"></hr>
+                <Catalogo />
+                <hr className="m-0"></hr>
 
+                {/* <Registro myRef={this.myRef}/> */}
+
+                {/*Sección ¿Cómo funciona?*/}
+                <hr className="m-0"></hr>
+                <Pasos/>
                 {/* Sube tu libro */}
                 {/* <hr className="m-0"></hr>
         <section className="my-5">
@@ -183,9 +186,7 @@ class Home extends Component {
         </section> */}
 
         {/*Sección Catálogo*/}
-        <hr className="m-0"></hr>
-        <Catalogo />
-
+        
         {/*Sección Quieres solicitar algun libro?*/}
         {/* <hr className="m-0"></hr>
         <section className="my-5">
@@ -267,13 +268,7 @@ class Home extends Component {
           </div>
 
         </section> */}
-        <hr className="m-0"></hr>
-
-        <Registro myRef={this.myRef}/>
-
-        {/*Sección ¿Cómo funciona?*/}
-        <hr className="m-0"></hr>
-        <Pasos/>
+        
 
         {/*Sección Nosotros*/}
         {/* <section className="my-5">

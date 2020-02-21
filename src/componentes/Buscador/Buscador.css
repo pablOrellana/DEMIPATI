@@ -14,3 +14,9 @@
         margin: unset !important;
     }
 }
+
+@media (min-width: 768px) {
+    .publica-buscador{
+        display: none;
+    }
+}

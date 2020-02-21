@@ -7,8 +7,6 @@ import './index.css'; //estilo gracias a webpack este css afecta a todo el body 
 
 import App from './App'; //Importa App desde App.js
 
-import * as serviceWorker from './serviceWorker'; //Simular datos de manera local, es un tipo cache, guarda los datos que estabas usando / guarda en memoria local, cuando vuelva la conexión estos datos son enviados... mas info en WPA(Aplicaciones web progresivas).
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 //import $ from 'jquery';
 //import Popper from 'popper.js';
@@ -20,5 +18,3 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 // App es jsx 
 ReactDOM.render(<App />, document.getElementById('root'));
 
-//registerServiceWorker();
-serviceWorker.unregister();

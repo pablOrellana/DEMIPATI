@@ -1,3 +1,30 @@
+html, #registro {
+    height: 100%;
+}
+
 .bg-color-registro {
     background: linear-gradient(180deg, #f19800, transparent);
 }
+
+#registro {
+    background-image: url('/img/slider2.jpg');
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#registro-form {
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: -1px 1px 60px 10px black;
+}
+
+#registerButton {
+    background-color: #0058F1;
+    border-color: #0058F1;
+  }
+  
+  #registerButton :hover{
+    background-color: #0058F1;
+    border-color: #0058F1;
+  }

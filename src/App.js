@@ -1,7 +1,9 @@
 //AQUI ESTÁ LA APLICACIÓN, esta es una componenete (Principal), cada una de estas tiene su propio css
 
 import React, {Component} from 'react'; //IMporta react
-// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Login from './componentes/InicioSesion';
+import Register from './componentes/Registro';
 
 //import logo from './logo.svg';//Logo
 
@@ -18,10 +20,13 @@ class App extends Component {
       // Todo debe estar encerrado por esta etiqueta
       //Para no confundir con "class" de REact se usa "className"
       // Propiedades ojooooo IMPORTANTE
-
-      <div className="App">
-        <Home/>
-      </div>
+      <Router>
+        <div className="App">
+          <Route path="/" exact component={Home}/>
+          <Route path="/login" exact component={Login}/>
+          <Route path="/register" exact component={Register}/>
+        </div>
+      </Router>
     );
   }
 

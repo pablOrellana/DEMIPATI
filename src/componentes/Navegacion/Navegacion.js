@@ -1,4 +1,5 @@
 import React, {Component} from 'react'; //Mayuscula minuscula
+import { Link } from 'react-router-dom';
 
 import "./Navegacion.css";
 
@@ -11,7 +12,7 @@ class Navegacion extends Component{
                     <div className="flex-fill">
                         <a className="navbar-brand mr-0 float-left" href="/">
                             <img src="./img/favicon/apple-icon.png" width="50"  height="50" alt=""/>
-                            Demipati
+                            DemiPati
                         </a>
                     </div>
                     
@@ -42,14 +43,18 @@ class Navegacion extends Component{
                         </ul>
                         
                     </div> */}
-
+                    <div className="mx-1 publica">
+                        <button className="btn btn-danger my-sm-0 px-md-4" type="submit">PUBLICA AQUÍ!</button>
+                    </div>
                     <div className="mx-1">
-                        <button className="btn btn-info my-sm-0 px-md-4" onClick={() => {this.props.scroll(this.props.myRef)}} type="submit">Regístrate</button>
+                        <Link to="/register" >
+                            <button className="btn btn-outline-info my-sm-0 px-md-4" type="submit">Regístrate</button>
+                        </Link>
                     </div>
                    <div className="mx-1">
-                       <a href="login.html">
-                            <button className="btn btn-warning my-sm-0 px-md-4" type="submit">Iniciar sesión</button>
-                       </a>
+                       <Link to="/login" >
+                            <button className="btn btn-outline-warning my-sm-0 px-md-4" type="submit">Iniciar sesión</button>
+                       </Link>
                    </div>
                 </nav>
             </div>

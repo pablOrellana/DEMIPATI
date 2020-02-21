@@ -1,4 +1,15 @@
 /*AQUÍ VAN LOS ESTILOS PARA APP*/
+/* @font-face {
+  font-family: 'SFRounded';
+  src: local('SFRounded Regular'), local('SFRounded-Regular'),
+      url('/fonts/SFRounded-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, a, p {
+	font-family: 'SFRounded';
+} */
 
 .App {
   text-align: center;
