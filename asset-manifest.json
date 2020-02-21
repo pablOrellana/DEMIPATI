@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/DEMIPATI/static/css/main.9b9abfad.chunk.css",
-    "main.js": "/DEMIPATI/static/js/main.40f5b023.chunk.js",
-    "main.js.map": "/DEMIPATI/static/js/main.40f5b023.chunk.js.map",
+    "main.css": "/DEMIPATI/static/css/main.fa2c0d74.chunk.css",
+    "main.js": "/DEMIPATI/static/js/main.92c83132.chunk.js",
+    "main.js.map": "/DEMIPATI/static/js/main.92c83132.chunk.js.map",
     "runtime-main.js": "/DEMIPATI/static/js/runtime-main.6d29b828.js",
     "runtime-main.js.map": "/DEMIPATI/static/js/runtime-main.6d29b828.js.map",
     "static/css/2.0624914a.chunk.css": "/DEMIPATI/static/css/2.0624914a.chunk.css",
-    "static/js/2.99d3a7fa.chunk.js": "/DEMIPATI/static/js/2.99d3a7fa.chunk.js",
-    "static/js/2.99d3a7fa.chunk.js.map": "/DEMIPATI/static/js/2.99d3a7fa.chunk.js.map",
+    "static/js/2.47d17243.chunk.js": "/DEMIPATI/static/js/2.47d17243.chunk.js",
+    "static/js/2.47d17243.chunk.js.map": "/DEMIPATI/static/js/2.47d17243.chunk.js.map",
     "index.html": "/DEMIPATI/index.html",
-    "precache-manifest.40567810c73afadb8b5619cec62d6d0a.js": "/DEMIPATI/precache-manifest.40567810c73afadb8b5619cec62d6d0a.js",
+    "precache-manifest.4f58cbb40cca36d33e4af0b1389b9aeb.js": "/DEMIPATI/precache-manifest.4f58cbb40cca36d33e4af0b1389b9aeb.js",
     "service-worker.js": "/DEMIPATI/service-worker.js",
     "static/css/2.0624914a.chunk.css.map": "/DEMIPATI/static/css/2.0624914a.chunk.css.map",
-    "static/css/main.9b9abfad.chunk.css.map": "/DEMIPATI/static/css/main.9b9abfad.chunk.css.map"
+    "static/css/main.fa2c0d74.chunk.css.map": "/DEMIPATI/static/css/main.fa2c0d74.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.6d29b828.js",
     "static/css/2.0624914a.chunk.css",
-    "static/js/2.99d3a7fa.chunk.js",
-    "static/css/main.9b9abfad.chunk.css",
-    "static/js/main.40f5b023.chunk.js"
+    "static/js/2.47d17243.chunk.js",
+    "static/css/main.fa2c0d74.chunk.css",
+    "static/js/main.92c83132.chunk.js"
   ]
 }
